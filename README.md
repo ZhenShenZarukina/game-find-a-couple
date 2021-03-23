@@ -1,1 +1,1 @@
-# game-find-a-couple
+# Memory game "Find a Couple"
