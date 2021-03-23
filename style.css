@@ -1,0 +1,75 @@
+.title {
+    margin-left: 120px;
+}
+
+.descr {
+    margin-left: 90px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    align-items: center;
+}
+
+.card {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+    border: 3px solid #666;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgb(47, 122, 80);
+    color: rgb(47, 122, 80);
+    font-size: 30px;
+    text-align: center;
+    transform: scale(1);
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 3px solid #000;
+}
+
+.card:active {
+    transform: scale(0.97);
+}
+
+.card.flip {
+    color: #000;
+}
+
+.no-activ {
+    opacity: 0;
+}
+
+.button {
+    margin-left: 160px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 15px;
+    border: 1px solid #000;
+    background-color: rgb(47, 122, 80);
+    transition: all .3s linear;
+    transform: scale(1);
+}
+
+.button:hover {
+    border: 3px solid #000;
+}
+
+.button:active {
+    transform: scale(0.97);
+}
+
+.no-btn {
+    display: none;
+}
+
